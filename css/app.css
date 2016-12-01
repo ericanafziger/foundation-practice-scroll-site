@@ -1,0 +1,86 @@
+.backgroundImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../img/sahale.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.backgroundImage1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../img/prussik.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.backgroundImage2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../img/winds1.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.content {
+  width: 100%;
+  display: block;
+}
+.text {
+  position: relative;
+  width: 1140px;
+  top:60%;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+h1 {
+  color: white;
+  font-size: 5em;
+}
+.row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+.columns {
+  margin-bottom: 5%;
+}
+.button.hollow {
+  border: 3px solid white;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu {
+  background: rgba(0,0,0, 0.5);
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+.menu a {
+  color: white;
+}
+.menu a:hover {
+  color: rgba(170, 201, 233, 1);
+}
+h1.text-center {
+  color: black;
+  font-size: 3em;
+  margin-top: 5%;
+}
+.circular img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	width: 220px;
+	height: 220px;
+  object-fit: cover;
+	border-radius: 100%;
+
+	}
