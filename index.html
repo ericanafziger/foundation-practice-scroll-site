@@ -10,15 +10,24 @@
     <title>Our Foundation Site</title>
   </head>
   <body>
-    <div class="navbar-brand">
-
-    </div>
-    <ul class="menu">
-      <li><a href="#">One</a></li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-      <li><a href="#">Four</a></li>
+    <ul class="menu hide-for-small-only">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Resume</a></li>
     </ul>
+    <ul class="menu show-for-small-only">
+      <li id="display"><a href="#display"><img src="img/iconbars.png" alt="responsive menu icon"></a></li>
+      <ul class="menu vertical responsive-phone-menu">
+        <div class="callout">
+          <a href="#close"><span id="close" aria-hidden="true">&times;</span></a>
+        </div>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </ul>
+
+
     <div class="backgroundImage">
       <div class="text">
         <h1>Explore</h1>

@@ -1,3 +1,27 @@
+.show-for-small-only img {
+  width: 40px;
+  filter: invert();
+  }
+.menu .responsive-phone-menu {
+  top: 5%;
+  background: rgba(255, 255, 255, 0.5);
+  display: none;
+  width: 50%;
+}
+.show-for-small-only #display:target + .responsive-phone-menu {
+  display: block;
+  }
+.show-for-small-only #close:target + .responsive-phone-menu {
+  display: none;
+}
+.menu .callout {
+  background: none;
+  border: none;
+  font-size: 2em;
+  float: right;
+  height: auto;
+  margin-top: -25px;
+}
 .backgroundImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../img/sahale.jpg);
   max-width: 100%;
